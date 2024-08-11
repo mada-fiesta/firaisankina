@@ -17,11 +17,13 @@ body {
 
 
   .flex-iframe {
-  align-items: flex-start !important;
+    align-items: flex-start !important;
     display: flex;
     align-items: center;
     justify-content: center;
     height: auto;
+    flex-direction: row;
+    flex-wrap: wrap;
 	.iframes {
 	}
 	.regles {
